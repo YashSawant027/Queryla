@@ -37,9 +37,9 @@ function App() {
         <div className="flex flex-1 items-center justify-center z-10">
 
           <div className="relative w-[420px] h-[350px]">
-            <div className="absolute inset-0 rounded-full bg-fuchsia-900/60 blur-[95px] animate-move1"></div>
-            <div className="absolute inset-0 rounded-full bg-emerald-950/60 blur-[75px] animate-move2"></div>
-            <div className="absolute inset-0 rounded-full bg-blue-950/60 blur-[95px] animate-move3"></div>
+            <div className="absolute inset-0 rounded-full bg-fuchsia-600/60 blur-[95px] animate-move1"></div>
+            <div className="absolute inset-0 rounded-full bg-emerald-600/60 blur-[75px] animate-move2"></div>
+            <div className="absolute inset-0 rounded-full bg-blue-600/60 blur-[95px] animate-move3"></div>
             <Hero />
             <div className="relative z-10 flex items-center justify-center h-full text-white text-2xl font-bold">
 

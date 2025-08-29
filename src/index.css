@@ -27,8 +27,8 @@
 /* ⭐ Moving Stars */
 .star {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   background: white;
   border-radius: 50%;
   opacity: 0.9;
