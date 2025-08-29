@@ -23,7 +23,7 @@ function Nav() {
 
         {/* Desktop Navigation Menu */}
         <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 py-2 px-4 border-white/20 border rounded-xl backdrop-blur-lg">
-          <ul className="flex gap-10 items-center backdrop-blur-md">
+          <ul className="z-30 flex gap-10 items-center backdrop-blur-md">
             {nav_items.map((item, index) => (
               <li
                 key={index}
@@ -63,7 +63,7 @@ function Nav() {
         >
           <span
             className={`h-1 w-5 bg-white rounded-lg transform transition-all duration-300 ${
-              open ? 'rotate-45 translate-y-3' : ''
+              open ? 'rotate-45 translate-y-2' : ''
             }`}
           />
           <span
@@ -73,7 +73,7 @@ function Nav() {
           />
           <span
             className={`h-1 w-5 bg-white rounded-lg transform transition-all duration-300 ${
-              open ? '-rotate-45 -translate-y-3' : ''
+              open ? '-rotate-45 -translate-y-2' : ''
             }`}
           />
         </button>
@@ -81,7 +81,7 @@ function Nav() {
 
       {/* Mobile Dropdown Menu */}
       {open && (
-        <div className="md:hidden absolute top-16 right-0 w-full bg-white/10 backdrop-blur-lg border-t border-white/20 shadow-lg p-5">
+        <div className="md:hidden mt-3 absolute top-16 right-0 w-full bg-white/10 backdrop-blur-lg border-t border-white/20 shadow-lg p-5">
           <ul className="flex flex-col gap-4">
             {nav_items.map((item, index) => (
               <li
